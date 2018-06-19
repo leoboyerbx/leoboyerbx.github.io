@@ -1,0 +1,60 @@
+.back-button {
+    position: fixed;
+    top: 15px;
+    left: 10px;
+	font-family: 'Raleway', sans-serif;
+    z-index: 500;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    padding: 10px 30px;
+    opacity: 0.4;
+    transition: all 0.2s cubic-bezier(.42, 0, .11, .98);
+    animation: opak 0.4s cubic-bezier(.42, 0, .11, .98) 2s backwards;
+}
+.back-button:hover {
+    opacity: 1;
+}
+.back-button span {
+    text-decoration: none;
+    position: relative;
+}
+
+.back-button span::before {
+    content: '';
+    position: absolute;
+    width: 104%;
+    height: 2px;
+    bottom: 0;
+    right: -2%;
+    z-index: -1;
+    background-color: rgb(189, 189, 189);
+    transition: all 0.25s cubic-bezier(.42, 0, .11, .98) 0.2s;
+}
+.back-button span::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: -2%;
+    z-index: -1;
+    background-color: rgb(189,189,189);
+    transition: width 0.25s cubic-bezier(.42, 0, .11, .98) 0.4s, height 0.25s cubic-bezier(.42, 0, .11, .98) 0.6s;
+}
+.back-button:hover span::before {
+    width: 0;
+}
+.back-button:hover span::after {
+    width: 104%;
+    height: 100%;
+}
+
+@keyframes opak {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.4;
+    }
+}

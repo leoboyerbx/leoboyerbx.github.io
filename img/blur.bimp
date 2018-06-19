@@ -1,0 +1,23 @@
+#BIMP 1.18
+#MANIPULATION SET DEFINITION
+
+[SHARPBLUR]
+amount=26
+
+[COLOR]
+brightness=78
+contrast=0
+levels_auto=false
+grayscale=false
+
+[USERDEF0]
+procedure=gimp-hue-saturation
+num_params=5
+PARAM0=NOT_USED
+PARAM1=0
+PARAM2=0
+PARAM3=0
+PARAM4=50
+
+[RENAME]
+pattern=$$-blur

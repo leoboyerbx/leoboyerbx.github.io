@@ -1,0 +1,152 @@
+@media screen and (max-device-width: 480px) /*and (max-width: 1000px)*/ {
+    #header {
+        height: 400px;
+    background-image: url(./img/bgh-01.jpg);
+    }
+    #logo {
+        width: 200%;
+        margin-left: -55%;
+    }
+    #content {
+        margin-top: 400px;
+    }
+    #page {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #lecteur {
+        height: 400px;
+        margin-left: -6%;
+        width: 112%;
+    }
+    #kub {
+        top: 350px;
+        height: 100px;
+        left: 20px;
+    }
+    #msak {
+        top: 360px;
+        height: 40px;
+        right: 0;
+        width: 165px;
+    }
+    #fb {
+        top: 370px;
+        height: 25px;
+        right: 120px;
+    }
+    #yt {
+        top: 370px;
+        height: 25px;
+        right: 60px;
+    }
+    #tw {
+        top: 370px;
+        height: 25px;
+        right: 10px;
+    }
+    .lien {
+        width: 300px;
+        height: 220px;
+        border-radius: 5px;
+    }
+    .titre {
+        font-size: 130%;
+    }
+    .lien:hover .date {
+        font-size: 110%;
+    }
+    #content {
+    -webkit-animation-duration: 0s;
+    -o-animation-duration: 0s;
+    animation-duration: 0s;
+    }
+    #menu {
+        text-align: right;
+    }
+    #mtw {
+        margin-right: 100px;
+    }
+    #mkub {
+        left: 2%;
+        height: 120%;
+    }
+    .msocial {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #cats {
+        margin-top: 5%;
+    }
+}
+/*@media screen and (max-width: 400px) {
+    #header {
+        height: 350px;
+    background-image: url(./img/bgh-01.jpg);
+    }
+    #logo {
+        margin-top: -80px;
+        width: 630%;
+        margin-left: -265%;
+    }
+    #content {
+        margin-top: 350px;
+    }
+    #page {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #lecteur {
+        height: 200px;
+    }
+    #kub {
+        top: 325px;
+        height: 50px;
+        left: 20px;
+    }
+    #fb {
+        top: 325px;
+        height: 25px;
+        right: 80px;
+    }
+    #yt {
+        top: 325px;
+        height: 25px;
+        right: 40px;
+    }
+    #tw {
+        top: 325px;
+        height: 25px;
+        right: 5px;
+    }
+    .lien {
+        width: 170px;
+        height: 160px;
+        border-radius: 4px;
+    }
+    .titre {
+        font-size: 100%;
+    }
+    .date {
+        font-size: 20%;
+    }
+    .lien:hover .date {
+        font-size: 80%;
+    }
+
+    .msocial {
+        height: 40%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .msocial img {
+        margin-top: 50%;
+    }
+    
+    #content {
+    -webkit-animation-duration: 0s;
+    -o-animation-duration: 0s;
+    animation-duration: 0s;
+    }
+}
+*/

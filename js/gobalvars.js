@@ -1,0 +1,9 @@
+let currentPage = 0
+let souligne = document.querySelector('#souligne')
+let allMenu = document.querySelectorAll('#main-nav ul li')
+let pages = ["home", "audiovisuel", "web", "design", "contacts"]
+let pagesScroll = []
+let page = document.querySelector('#page')
+let mainNav = document.querySelector('#main-nav')
+let home = document.querySelector('#home')
+let externalPage = document.querySelector('#external-page')

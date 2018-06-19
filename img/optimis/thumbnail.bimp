@@ -1,0 +1,19 @@
+#BIMP 1.18
+#MANIPULATION SET DEFINITION
+
+[RESIZE]
+new_w_pc=100
+new_h_pc=100
+new_w_px=300
+new_h_px=100
+resize_mode=2
+stretch_mode=1
+padding_color=#000000000000
+padding_color_alpha=65535
+interpolation=2
+change_res=false
+new_res_x=72
+new_res_y=72
+
+[RENAME]
+pattern=$$-thumb

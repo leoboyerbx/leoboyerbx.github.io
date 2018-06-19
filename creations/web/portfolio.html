@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Léo Boyer" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet"/>
+    <link rel="icon" type="image/png" href="img/will.png" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Léo boyer - page externe</title>
+
+</head>
+<body>
+    <p>Si vous voyez, ce texte, veuillez activer javascript.</p> <br> <br>
+    <!--DataStart-->
+    <div id="imagepage" class="ep-element">
+        <img src="img/bg1.jpg" alt="" class="extimg hidden-data"></img>
+        <a href="#"><video title="Visiter" autoplay loop src="video/portfolio.mp4" class="extimg"><img src="img/bg1.jpg" alt="" class="extimg" /></video></a>
+    </div>
+    <div class="ep-element" id="textepage">
+        <h1 id="titrepage" class="h1date" date="Mars 2018">Mon portfolio personnel</h1>
+        <h2>Le site que vous êtes en train de consulter !</h2>
+        <p>
+            A l'origine, j'ai créé ce site pour présenter mes travaux à l'attention des formations que je demande pour après ma terminale, puis je compte ensuite le convertir en portfolio plus "professionnel" pour trouver plus facilement des stages.
+        </p>
+        <h3>Détails techniques</h3>
+        <p>
+            Ce site est le plus avancé que j'ai fait en termes de design. Je n'ai volontairement utilisé que du Javascript pur, par souci de légèreté. J'ai choisi d'utiliser la syntaxe ES6 afin de prendre des bonnes habitudes pour les garder à l'avenir.
+            <ul>
+                <li>Transformations, transitions et animations CSS3</li>
+                <li>Pas de JQuery</li>
+                <li><strong>Site semi-dynamique: </strong>le contenu ne le nécessitant pas, ce site est statique. Cependant le contenu des pages est chargé dynamiquement en AJAX pour éviter un chargement initial trop long.</li>
+                <li><strong>Site one-page: </strong>Il n'y a presque jamais de rechargement complet de la page. J'ai fait ce choix car le design est rempli d'images assez lourdes, ce qui rendrait la navigation d'une page à l'autre très lente.</li>
+                <li>Travail important sur l'optimisation des images</li>
+                <li><strong>Site responsive: </strong>Travail important sur le design adapté aux terminaux mobiles. Vous pouvez le tester en <a href="#" onclick="event.preventDefault(); littleWindow();" class="clnk">redimensionnant votre fenêtre</a> ou en le visitant sur mobile.</li>
+                <li>Gestion des interactions tactiles avec la bibliothèque Hammer.js</li>
+            </ul>
+        </p>
+        <br>
+        <a href="#" class="button">Continuer la visite</a>
+        
+
+        
+
+    </div>
+    <!--DataEnd-->
+</body>
+</html>
